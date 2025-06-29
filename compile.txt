@@ -1,0 +1,28 @@
+Suppose that i want to use the cs50 library 
+for the program named prog.c
+
+In the compilation step , i would use make prog and then ./prog
+
+but instead i will use : --------->
+|
+|
+|
+|
+|
+V
+
+_____________________________________________________________________
+
+gcc prog.c -o prog -lcs50 -I/usr/local/include -L/usr/local/lib
+
+_____________________________________________________________________
+
+^
+|
+|
+|
+|
+|
+|
+
+this is to make prog.c executable and link it with cs60 ;) (kind of)
