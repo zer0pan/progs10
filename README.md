@@ -1,2 +1,2 @@
-# Here there are written programs in C of the problem sets in CS50 
+# Here there are solved problems of the problem sets of CS50 , HarvardX 
 (https://cs50.harvard.edu/x/)
