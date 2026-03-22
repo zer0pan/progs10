@@ -76,8 +76,10 @@ AND duration <=60;
 
 -- Now I have the table suspect_calls 
 SELECT * from suspect_calls 
-JOIN people ON caller = people.phone_number;
--- Bruce Diana Bruce
+JOIN people ON caller = people.phone_number
+WHERE month = 7 AND
+day = 28 AND year = 2025;
+-- Bruce Diana
 
 SELECT * from suspect_calls 
 JOIN people ON receiver = people.phone_number
